@@ -37,15 +37,15 @@ public class Main {
                     System.out.print("Enter ID to Update Salary: ");
                     int id1 = scanner.nextInt();
                     System.out.print("Enter New Salary: ");
-                    int updateSalary = scanner.nextInt();
-                    crud.updateRecord(id1, updateSalary);
+                    int updateSalary_ = scanner.nextInt();
+                    crud.updateSalary(id1, updateSalary_);
                     break;
                 case 4:
                     System.out.print("Enter ID to Update Name: ");
                     int id2 = scanner.nextInt();
                     System.out.print("Enter New Name: ");
                     String updateName = scanner.next();
-                    crud.updateRecord(id2, updateName);
+                    crud.updateName(id2, updateName);
                     break;
                 case 5:
                     System.out.print("Enter ID to Delete Record: ");

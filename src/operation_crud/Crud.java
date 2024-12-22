@@ -21,7 +21,7 @@ public class Crud {
         pst.close();
         con.close();
     }
-    public static void sp(int id)throws Exception{
+  /*  public static void sp(int id)throws Exception{
 
         Connection con = DriverManager.getConnection(url,username,password);
 
@@ -35,7 +35,7 @@ public class Crud {
         }
         cst.close();
         con.close();
-    }
+    }*/
     public static void readRecords() throws Exception{
         String sql = "select * from emp";
 
